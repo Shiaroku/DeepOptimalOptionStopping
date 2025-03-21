@@ -6,16 +6,10 @@ This is a repository showcasing deep learning approaches for pricing American op
 
 ---
 
-## Project Structure
+## Bibliography 
 
-DeepOptimalOptionPricing/  
-├── README.md             # This file  
-├── LICENSE               # Project license (MIT)  
-├── requirements.txt      # Project dependencies  
-├── data/                 # Data or simulation outputs  
-├── notebooks/            # Jupyter notebooks for experiments  
-├── src/                  # Source code (models, data generator, etc.)  
-└── tests/                # Unit tests
+- [Longstaff, F. A., & Schwartz, E. S. (2001). Valuing American options by simulation: a simple least-squares approach. *The Review of Financial Studies, 14*(1), 113-147.](https://people.math.ethz.ch/~hjfurrer/teaching/LongstaffSchwartzAmericanOptionsLeastSquareMonteCarlo.pdf)
+- [Becker, S., Cheridito, P., & Jentzen, A. (2019). Deep optimal stopping. *Mathematical Finance, 29*(3), 606-620.](https://jmlr.org/papers/volume20/18-232/18-232.pdf)
 
 ---
 
@@ -23,8 +17,8 @@ DeepOptimalOptionPricing/
 
 1. **Clone the repository:**
 
-   git clone https://github.com/Shiaroku/DeepOptimalOptionPricing.git  
-   cd DeepOptimalOptionPricing
+   `git clone https://github.com/Shiaroku/DeepOptimalOptionPricing.git`  
+   `cd DeepOptimalOptionPricing`
 
 2. **Install dependencies:**
 
