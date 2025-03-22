@@ -63,7 +63,7 @@ def heston_multid(S0, T, N, n_paths, params, d,
     L = np.linalg.cholesky(params["rho"])
     
     Z = rng.standard_normal(size = (N-1 ,n_paths, 2 * d))
-    G = np.einsum("xy, nmy -> nmy", L, Z) # first d -> prices, next d -> volatilities
+    G = np.einsum("xy, nmy -> nmx", L, Z) # first d -> prices, next d -> volatilities
 
     
     S = np.empty(shape = (N, n_paths, d)) 
